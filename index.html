@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harsh Kumar | Portfolio</title>
+  <style>
+    /* Reset & Base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #4c00ff, #6a5acd);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+  
+}
+
+    /* Navigation */
+    nav {
+      background: #222;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #4c00ff;
+    }
+
+    /* Projects Grid */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgb(255, 0, 0);
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      color: #0044ff;
+    }
+
+    /* Skills */
+    ul.skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      list-style: none;
+    }
+    ul.skills li {
+      background: #4c00ff;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 0.95rem;
+      transition: background 0.3s ease;
+    }
+    ul.skills li:hover {
+      background: #6a5acd;
+    }
+
+    /* Testimonials */
+    .testimonials {
+      display: grid;
+      gap: 20px;
+    }
+    .testimonials .card {
+      font-style: italic;
+      border-left: 5px solid #4c00ff;
+    }
+
+    /* Footer */
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #ffd700;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Harsh Kumar</h1>
+    <p>Front-End Developer | AI Enthusiast | Designer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Harsh, a BCA student specializing in Artificial Intelligence and Deep Learning. I love building creative web projects with HTML, CSS, and exploring data visualization with tools like Power BI and IBM Cognos.</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A responsive personal portfolio built with HTML, CSS, and modern design principles.</p>
+      </div>
+      <div class="card">
+        <h3>Landing Page</h3>
+        <p>A sleek landing page design for showcasing products or services.</p>
+      </div>
+      <div class="card">
+        <h3>Photo Gallery</h3>
+        <p>A grid-based gallery with hover effects and smooth transitions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul class="skills">
+      <li>HTML5 & CSS3</li>
+      <li>Responsive Web Design</li>
+      <li>JavaScript (Basics)</li>
+      <li>Python</li>
+      <li>Power BI</li>
+      <li>IBM Cognos</li>
+      <li>Data Structures</li>
+      <li>Algorithms</li>
+    </ul>
+  </section>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonials">
+      <div class="card">
+        <p>"Harsh is a dedicated learner who builds clean and creative web projects!"</p>
+        <p>- Mentor</p>
+      </div>
+      <div class="card">
+        <p>"Great eye for design and detail. His portfolio stands out."</p>
+        <p>- Peer Developer</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: harshkumar999914@gmail.com</p>
+    <p>Phone: 7992279373</p>
+    <p>Location: Jamshedpur, Jharkhand</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Harsh Kumar. All rights reserved.</p>
+    <p>Connect with me:</p>
+    <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+    <a href="https://linkedin.com/in/harsh-kumar-194b3b339" target="_blank">LinkedIn</a> |
+    <a href="mailto:harshkumar999914@gmail.com">Email</a>
+  </footer>
+
+</body>
+</html>
